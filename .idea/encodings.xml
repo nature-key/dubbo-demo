@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/00-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-consumer-version" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-consumer-zk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-provider-version" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-provider-zk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../incubator-dubbo-ops-master/dubbo-admin" charset="UTF-8" />
+  </component>
+</project>

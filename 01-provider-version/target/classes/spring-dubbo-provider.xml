@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--当前工程名称，该名称将在监控平台使用-->
+    <dubbo:application name="01-provider-version"/>
+
+    <!--注册Service，其就是真正的服务提供者-->
+    <bean id="someService" class="com.jiepi.provider.SomeServiceImp"/>
+    <bean id="otherService" class="com.jiepi.provider.OtherServiceImp"/>
+
+    <dubbo:registry address="192.168.1.100:2181" protocol="zookeeper" timeout="30000"/>
+
+    <dubbo:service interface="com.jiepi.common.SomeService" ref="someService" version="1.0.0"/>
+    <dubbo:service interface="com.jiepi.common.SomeService" ref="otherService" version="2.0.0"/>
+
+</beans>

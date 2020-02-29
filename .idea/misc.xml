@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/00-common/pom.xml" />
+        <option value="$PROJECT_DIR$/01-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/01-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/01-provider-zk/pom.xml" />
+        <option value="$PROJECT_DIR$/01-consumer-zk/pom.xml" />
+        <option value="$PROJECT_DIR$/01-provider-version/pom.xml" />
+        <option value="$PROJECT_DIR$/01-consumer-version/pom.xml" />
+        <option value="$PROJECT_DIR$/../incubator-dubbo-ops-master/dubbo-admin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://code.alibabatech.com/schema/dubbo" location="$PROJECT_DIR$/../dubbo.xsd" />
+    <resource url="http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd" location="$PROJECT_DIR$/../dubbo.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="12" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

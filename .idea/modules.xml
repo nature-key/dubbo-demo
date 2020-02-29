@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00-common/00-common.iml" filepath="$PROJECT_DIR$/00-common/00-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-consumer/01-consumer.iml" filepath="$PROJECT_DIR$/01-consumer/01-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-consumer-version/01-consumer-version.iml" filepath="$PROJECT_DIR$/01-consumer-version/01-consumer-version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-consumer-zk/01-consumer-zk.iml" filepath="$PROJECT_DIR$/01-consumer-zk/01-consumer-zk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-provider/01-provider.iml" filepath="$PROJECT_DIR$/01-provider/01-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-provider-version/01-provider-version.iml" filepath="$PROJECT_DIR$/01-provider-version/01-provider-version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-provider-zk/01-provider-zk.iml" filepath="$PROJECT_DIR$/01-provider-zk/01-provider-zk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../incubator-dubbo-ops-master/dubbo-admin/dubbo-admin.iml" filepath="$PROJECT_DIR$/../incubator-dubbo-ops-master/dubbo-admin/dubbo-admin.iml" />
+    </modules>
+  </component>
+</project>
